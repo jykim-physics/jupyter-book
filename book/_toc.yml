@@ -1,5 +1,5 @@
 format: jb-article
-root: intro
+root: index
 sections:
 - file: docs/markdown-example
   title: markdown example
