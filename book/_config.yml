@@ -33,3 +33,5 @@ latex:
   latex_engine                : "xelatex"
   latex_documents:
     targetname: book.tex
+
+exclude_patterns: [draft/*]

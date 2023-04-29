@@ -1,7 +1,5 @@
 format: jb-article
-root: docs/index
+root: intro
 sections:
-- file: docs/about_py
-- file: docs/getting_started
-- file: docs/python_by_example
-- file: docs/learn_more
+- file: docs/markdown-example
+  title: markdown example
