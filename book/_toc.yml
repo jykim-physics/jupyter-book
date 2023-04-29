@@ -3,3 +3,7 @@ root: index
 sections:
 - file: docs/markdown-example
   title: markdown example
+- file: docs/about_py
+- file: docs/getting_started
+- file: docs/python_by_example
+- file: docs/learn_more
