@@ -1,10 +1,20 @@
-format: jb-article
+format: jb-book
 root: index
-sections:
-- file: docs/markdown-example
-  title: markdown example
-- file: docs/about_py
-- file: docs/getting_started
-- file: docs/python_by_example
-- file: docs/learn_more
-- file: docs/test_convert
+parts:
+- caption: Pandas
+  chapters:
+    - file: docs/Basics_of_Pandas
+
+- caption: Jupyter book examples
+  chapters:
+  - file: docs/index
+    sections:
+    - file: docs/markdown-example
+      title: markdown example
+    - file: docs/about_py
+    - file: docs/getting_started
+    - file: docs/python_by_example
+    - file: docs/learn_more
+    - file: docs/test_convert
+
+
