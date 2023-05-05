@@ -4,6 +4,7 @@ parts:
 - caption: Pandas
   chapters:
     - file: docs/Basics_of_Pandas
+      title: Basics of Pandas
 
 - caption: Jupyter book examples
   chapters:
