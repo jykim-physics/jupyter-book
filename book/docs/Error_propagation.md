@@ -30,13 +30,13 @@ In table: $A,B$ = Expectation value
         {\delta z \over z} = \sqrt{({\delta x \over x})^2 + ({\delta y \over y})^2}$ or ${\delta z} = z\sqrt{({\delta x \over x})^2 + ({\delta y \over y})^2}$
 - $z=f(x)$
     - $\delta z = |f'(x)|\delta x$
-    - How about error of $\sqrt x$ when $x$ measured as $100 \pm 6$?
-    Let $f(x)=\sqrt x, f'(x)=1/(2\sqrt x)$
-    $\to \delta f = f'(x)\delta x =1/(2\sqrt{100}) \times 6=6/20=0.3$
+    - How about error of $\sqrt x$ when $x$ measured as $100 \pm 6$?\
+    Let $f(x)=\sqrt x, f'(x)=1/(2\sqrt x)$\
+    $\to \delta f = f'(x)\delta x =1/(2\sqrt{100}) \times 6=6/20=0.3$\
     Then, $\sqrt{x}=10.0 \pm 0.3$
 
 - $f = x/(y-z), x=200\pm2,y=50\pm3,z=40\pm4$
-    - Let's estimate first $\delta(y-z)=\sqrt{\delta y^2 + \delta z^2}=\sqrt{3^2 + 4^2}=5$
-    Then, $y-z=10\pm5$
+    - Let's estimate first $\delta(y-z)=\sqrt{\delta y^2 + \delta z^2}=\sqrt{3^2 + 4^2}=5$\
+    Then, $y-z=10\pm5$\
     $\delta(x/(y-z))=(200/10)\sqrt{(2/200)^2 + (5/10)^2}=20\sqrt{0.01^2 + 0.5^2}\\
     \to f = 20\pm 20\sqrt{0.01^2 + 0.5^2}$
