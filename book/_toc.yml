@@ -1,6 +1,11 @@
 format: jb-book
 root: index
 parts:
+- caption: Statistics
+  chapters:
+    - file: docs/Error_propagation
+      title: Error propagation
+
 - caption: Pandas
   chapters:
     - file: docs/Basics_of_Pandas
